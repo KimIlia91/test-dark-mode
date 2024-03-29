@@ -18,8 +18,6 @@
 - React v18.2.0
 - React-Slick v0.29.0
 - React-Router-Dom v6.21.3
-- React-Bootstrap v2.10.0
-- Bootstrap v5.3.2
 - Sass v1.70.0
 - Slick Carousel v1.8.1
 - @testing-library/jest-dom v5.17.0
