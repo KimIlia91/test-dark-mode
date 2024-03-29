@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+@import './base/variabales';
+
+* {
+    font-family: "Roboto Condensed", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-primary: #ffff;
+    --text-color: black;
+    --text-secondary: black;
+    --text-footer: #ffff;
+    --bg-secondary: rgb(227, 227, 227);
+    --light-blue: rgb(73, 73, 247);
+    --balck-extra-light-opacity: rgba(0, 0, 0, 0.05);
+    --balck-light-opacity: rgba(0, 0, 0, 0.3);
+    --balck-medium-opacity: rgba(0, 0, 0, 0.5);
+    --border-primary: rgb(178, 178, 178);
+    --text-gray: rgb(130, 128, 128);
+    --shadow-primary: #0063A9;
+}
+
+[data-theme="dark"] {
+    --bg-primary: rgb(87, 87, 87);
+    --text-color: white;
+    --text-gray: rgb(222, 222, 222);
+    --text-footer: black;
+}
+
+ul,
+li,
+dl {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+body {
+    background: var(--bg-primary);
+    min-width: 1440px;
+}
+
+main {
+    height: 100vh;
+    background: var(--bg-primary);
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.app-container {
+    padding: 0 100px;
+    width: 1440px;
+    margin: 0 auto;
+}

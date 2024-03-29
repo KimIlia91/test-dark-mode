@@ -1,0 +1,9 @@
+
+.toggle {
+    cursor: pointer;
+    &__btn {
+        cursor: pointer;
+        border: none;
+        background: var(--bg-primary);
+    }
+}

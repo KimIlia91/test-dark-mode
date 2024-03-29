@@ -1,0 +1,23 @@
+
+.account {
+    &__wrapper {
+        position: relative;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    &__name {
+        color: var(--text-color);
+    }
+    &__img {
+        border-radius: 50%; 
+        background-color: var(--bg-secondary); 
+        font-size: 15px;
+        color: var(--light-blue);
+        width: 30px; 
+        height: 30px;
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+    }
+}

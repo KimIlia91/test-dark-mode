@@ -1,0 +1,11 @@
+
+.header {
+    border-bottom: 1px solid var(--border-primary);
+    &__wrapper {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 40px;
+        padding: 20px 40px;
+    }
+}

@@ -1,0 +1,38 @@
+
+.nav-bar {
+    &__container {
+        border-bottom: 2px solid var(--border-primary);
+        padding: 20px 40px;
+    }
+    &__list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+    &__item {
+        position: relative;
+        transition: color 0.3s;
+        cursor: pointer; 
+        a {
+            color: var(--text-gray);
+        }
+    }
+
+    &__item:hover::after {
+        content: '';
+        position: absolute;
+        left: 0; 
+        bottom: -2px; 
+        width: 100%; 
+        height: 2px; 
+        background-color: var(--text-color);
+        transition: width 0.3s; 
+    }
+
+    &__item:hover {
+        a{
+            color: var(--text-color);
+        }
+    }
+}

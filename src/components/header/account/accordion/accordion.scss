@@ -1,0 +1,15 @@
+
+.accordion {
+    cursor: pointer;
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__title {
+        color: var(--text-color);
+    }
+    &__descr {
+        color: var(--text-color);
+    }
+}
